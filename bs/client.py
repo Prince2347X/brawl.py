@@ -19,6 +19,9 @@ class Client:
     """
     Client connection to interact with the api.
 
+    :param key_count: The amount of keys to use for this client. Maximum of 10. Defaults to 1
+    :type key_count: int
+
     Parameters
     ----------
     key_count : int
